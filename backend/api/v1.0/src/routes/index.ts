@@ -5,4 +5,4 @@ router.get('/', async (req, res) => {
     return res.status(200).send({ ok: true });
 })
 
-export { router as indexRoute };
+export { router as indexRouter };
